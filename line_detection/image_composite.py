@@ -1,3 +1,9 @@
+"""
+작성자 정보: 황승현 / 전남대학교 전자컴퓨터공학부 전자정보통신공학전공 / ggg06139@gmail.com
+코드 기능: 직선 검출에 관한 함수들이 구현되어 있습니다.
+최종 수정 시간: 2023년 4월 10일 20:53
+"""
+
 import cv2
 
 def weighted_img(img, initial_img, a, b, theta_w):
